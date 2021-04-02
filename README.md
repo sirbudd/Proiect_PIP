@@ -1,6 +1,7 @@
-# Proiect_PIP
+# Proiect-PIP
 Proiect PIP 
-Echipa : Amironesei Andreea\
+Echipa : 
+         Amironesei Andreea\
          Butincu Doru Gabriel\
          Sirbu Dragos Daniel\
          Condurachi Ana\
