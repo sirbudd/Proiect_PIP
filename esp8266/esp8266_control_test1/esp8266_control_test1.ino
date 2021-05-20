@@ -2,8 +2,8 @@
   #include <ESP8266WiFi.h>
 //------------------------------------------------------------------------------------
   // Network Name and Password
-  char*       net_ssid = "";              // WIFI NAME
-  char*       net_pass = "";          // PASSWORD
+  char*       net_ssid = "Wifi";              // WIFI NAME
+  char*       net_pass = "password";          // PASSWORD
 //------------------------------------------------------------------------------------
   #define     MAXSC     6           // MAXIMUM NUMBER OF CLIENTS
   
@@ -87,13 +87,11 @@
         //find free/disconnected spot
         if (!daClient[i] || !daClient[i].connected())
         {
-          // Checks If Previously The Client Is Taken
           if(daClient[i])
           {
             daClient[i].stop();
           }
 
-          // Checks If Clients Connected To The Server
           if(daClient[i] = daServer.available())
           {
             Serial.println("New Client: " + String(i));
@@ -104,7 +102,6 @@
         }
       }
       
-      //no free/disconnected spot so reject
       WiFiClient daClient = daServer.available();
       daClient.stop();
     }
