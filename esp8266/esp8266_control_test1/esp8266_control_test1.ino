@@ -1,21 +1,22 @@
-//-- Libraries Included --------------------------------------------------------------
+
   #include <ESP8266WiFi.h>
-//------------------------------------------------------------------------------------
+  #include "PubSubClient.h" // Connect and publish to the MQTT broker
+
   // Network Name and Password
   char*       net_ssid = "Wifi";              // WIFI NAME
   char*       net_pass = "password";          // PASSWORD
-//------------------------------------------------------------------------------------
+
   #define     MAXSC     6           // MAXIMUM NUMBER OF CLIENTS
   
   WiFiServer  daServer(1987);      
   WiFiClient  daClient[MAXSC];    
   
   int outputIndex[]={16,5,4,0,2,14,12,13}; // IO Number for D0 to D7
-//====================================================================================
+
 
   void setup()
   {
-    // Setting D0 to D7 as Output
+    // Setting D0 to D6 as Output
     for(int i=0;i<7;i++)
     {
       pinMode(outputIndex[i], OUTPUT);
@@ -27,7 +28,7 @@
     SetWifi("ctrlESPwithJava", "");
   }
 
-//====================================================================================
+
   
   void loop()
   {
@@ -37,7 +38,6 @@
     AvailableMessage();
   }
 
-//====================================================================================
 
   //module for WIFI setup
   
@@ -74,7 +74,7 @@
     Serial.println("Server Started, clientul JAVA poate sa fie utilizat");
   }
 
-//====================================================================================
+
 
   void AvailableClients()
   {   
@@ -107,7 +107,7 @@
     }
   }
 
-//====================================================================================
+
 
   void AvailableMessage()
   {
