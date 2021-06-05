@@ -58,7 +58,7 @@ public class test2 extends Frame {
 			b[i+7]=new Button(bCaption[i+7]);
 		}
 		
-		Font myFont = new Font("Courier", Font.ITALIC,fontSize);
+		Font myFont = new Font("Courier", Font.BOLD,fontSize);
 		for(int i=0;i<14;i++)
 		{
 			b[i].setFont(myFont);
