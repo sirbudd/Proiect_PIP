@@ -1,1 +1,1 @@
-## Just testing git command
+## Just testing git commands
