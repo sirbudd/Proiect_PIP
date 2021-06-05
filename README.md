@@ -1,5 +1,5 @@
 # Proiect-PIP
-Proiect PIP Sistem de colaborare între aplicații folosind MQTT (de la IoT)\
+Proiect PIP Sistem de colaborare între aplicații folosind MQTT (de la IoT)
 
 Aplicatia presupune comunicarea intre un ESP8266 (WEMOS D1 MINI) si un client Java.\
 Am creat 2 implementari :
