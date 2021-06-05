@@ -1,16 +1,6 @@
-# Proiect-PIP
-Proiect PIP Sistem de colaborare între aplicații folosind MQTT (de la IoT)
+## Java & MQTT
 
-Aplicatia presupune comunicarea intre un ESP8266 (WEMOS D1 MINI) si un client Java.\
-Am creat 2 implementari :
-1. Utilizand Java sockets.
-2. Utilizand MQTT.
+Implementare MQTT.
+Folosim ca broker io.adafruit.com
+Client scris in Java.
 
-
-## Echipa :
-Amironesei Andreea\
-Butincu Doru Gabriel\
-Condurachi Ana\
-Dascalescu Tudor Ion\
-Scriminti Augustin Petrut\
-Sirbu Dragos Daniel
