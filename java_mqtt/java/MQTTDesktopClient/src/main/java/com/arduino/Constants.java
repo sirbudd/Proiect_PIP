@@ -9,7 +9,7 @@ public class Constants {
     public static final String APP_NAME = "Arduino Communicator DLDA";
 
     public static final String MQTT_USER_NAME = "sirbudd";
-    public static final char[] MQTT_USER_KEY = "aio_XzgX05VkB0EDixeaGTY2abk9JFwh".toCharArray();
+    public static final char[] MQTT_USER_KEY = "aio_QCSK812aFWZd3UVaqddkvgQRCvas".toCharArray();
 
     public static final String MQTT_TOPIC = MQTT_USER_NAME + "/feeds/proiect";
 
