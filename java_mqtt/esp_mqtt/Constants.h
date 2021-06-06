@@ -34,7 +34,7 @@ const uint16_t MQTT_BROKER_PORT = 1883;
 // Broker Account User Name
 const char MQTT_BROKER_USER_NAME[] = "sirbudd";
 // Broker Account Key for Security
-const char MQTT_BROKER_KEY[] = "aio_XzgX05VkB0EDixeaGTY2abk9JFwh";
+const char MQTT_BROKER_KEY[] = "aio_Xmcm13QWp7uVMqmRJ73SorMb530h";
 // Broker Client ID
 const char MQTT_CLIENT_ID[] = "Arduino Client ID";
 // Topic Data
